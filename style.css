@@ -6,7 +6,8 @@ body {
 }
 
 header,
-.hero {
+.hero,
+footer {
   padding: 20px;
   background-color: #1f2937;
   color: white;
@@ -25,7 +26,8 @@ nav a {
 h1,
 h2,
 h3,
-h4 {
+h4,
+small {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -68,14 +70,15 @@ a {
 }
 
 .hero-btn {
-  color: white;
   padding: 5px 20px;
   border: 0px;
   border-radius: 5px;
 }
 
-.cta-bg {
+.cta-bg,
+.cta-container {
   background-color: #3882f6;
+  color: white;
 }
 
 .info-section {
@@ -93,5 +96,45 @@ a {
 }
 
 .info-caption {
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 40px 20px;
+}
+
+blockquote h4 {
+  font-size: 18px;
+  text-align: right;
+}
+
+blockquote {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.cta-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cta-text {
+  flex: 2;
+}
+
+.cta-btn {
+  padding: 5px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+footer {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 14px;
   text-align: center;
 }
